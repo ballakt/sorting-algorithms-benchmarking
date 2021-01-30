@@ -95,7 +95,9 @@
 			"cfenv": "cpp",
 			"*.def": "cpp",
 			"filesystem": "cpp",
-			"*.lst": "cpp"
+			"*.lst": "cpp",
+			"bitset": "cpp",
+			"regex": "cpp"
 		}
 	}
 }
