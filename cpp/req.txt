@@ -1,0 +1,5 @@
+sudo apt install kernel-tools; \
+         cmake; \
+         gcc-c++;
+
+sudo cpupower frequency-set --governor performance
