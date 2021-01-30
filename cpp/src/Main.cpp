@@ -124,7 +124,7 @@ void swap(double* a, double* b) {
 }
 
 /* This function takes last element as pivot, places the pivot element at its correct position in sorted
-array, and places all smaller (smaller than pivot) to left of pivot and all greater elements to right of pivot */
+   array, and places all smaller (smaller than pivot) to left of pivot and all greater elements to right of pivot */
 int partition (std::array<double, data_size> &arr, int low, int high) {
     double pivot = arr[high]; // pivot
     int i = (low - 1); // Index of smaller element
@@ -143,9 +143,9 @@ int partition (std::array<double, data_size> &arr, int low, int high) {
 }
 
 /* The main function that implements QuickSort
-arr[] --> Array to be sorted,
-low --> Starting index,
-high --> Ending index */
+    arr[] --> Array to be sorted,
+    low --> Starting index,
+    high --> Ending index */
 void quickSort(std::array<double, data_size> &arr, int low, int high) {
     if (low < high) {
         /* pi is partitioning index, arr[p] is now at right place */
