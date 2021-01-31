@@ -135,9 +135,9 @@ def quickSort():
 
 
 def main():
-    print("bubbleSort:",timeit("bubbleSort()", setup="from __main__ import bubbleSort",number=1) * 10000000000, "[ns]")
-    print("insertionSort:",timeit("insertionSort()", setup="from __main__ import insertionSort",number=1) * 10000000000, "[ns]")
-    print("heapSort:",timeit("heapSort()", setup="from __main__ import heapSort",number=1) * 10000000000, "[ns]")
-    print("quickSort:",timeit("quickSort()", setup="from __main__ import quickSort",number=1) * 10000000000, "[ns]")
+    print("bubbleSort:",timeit("bubbleSort()", setup="from __main__ import bubbleSort",number=1) * 1000000000, "[ns]")
+    print("insertionSort:",timeit("insertionSort()", setup="from __main__ import insertionSort",number=1) * 1000000000, "[ns]")
+    print("heapSort:",timeit("heapSort()", setup="from __main__ import heapSort",number=1) * 1000000000, "[ns]")
+    print("quickSort:",timeit("quickSort()", setup="from __main__ import quickSort",number=1) * 1000000000, "[ns]")
 if __name__ == "__main__":
     main()
