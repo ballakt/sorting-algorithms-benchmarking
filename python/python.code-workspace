@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"vscode-icons-team.vscode-icons",
+			"ms-python.python",
+			"njpwerner.autodocstring",
+			"magicstack.magicpython",
+			"njpwerner.autodocstring",
+			"ms-python.vscode-pylance"
+		]
+	}
+}
