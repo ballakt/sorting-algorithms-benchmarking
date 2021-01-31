@@ -1,1 +1,1 @@
-go test -run=Bench -bench=. -benchtime=1x
+go test -run=Bench -bench=. -benchtime=1x -ldflags '-s'
